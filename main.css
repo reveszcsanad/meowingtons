@@ -9,6 +9,7 @@ body {
 }
 
 body::before {
+    font-family: "Dubai Light";
     content: "";
     position: fixed;
     top: 0;
@@ -22,10 +23,12 @@ body::before {
 }
 
 main {
+    font-family: "Dubai Light";
     text-align: center;
 }
 
 pre {
+    font-family: "Dubai Light";
     color: darkmagenta;
 }
 
