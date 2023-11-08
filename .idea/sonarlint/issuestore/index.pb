@@ -1,10 +1,6 @@
 
 ?
 Meowingtons.iml,2\5\253d49f51bd953e804392e7b880bb131bfdaf984
-J
-.idea/another/another.html,f\f\ff23c250e507d1c8982204f0d9bf2b359d23c3f7
-M
-.idea/another/anothermain.css,f\3\f3ecf27b49a6dbdb568f15855b550b4426bd6031
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 Å
