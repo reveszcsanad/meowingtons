@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rgesister pls</title>
+    <meta name="description" content="register, purrfect, universe, destroy, help">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Register here</h1>
+    <section>
+        <form>
+            <fieldset>
+                <legend style="font-size: 2em">Yo data</legend>
+                <div>
+                    <label for="full-name">Your full name:</label>
+                    <input type="text" name="fullName" id="full-name" required placeholder="enter here">
+                </div>
+                <div>
+                    <label for="mission">Your mission in the universe:</label>
+                    <textarea name="mission" id="mission" cols="30" rows="10" placeholder="Just tell me your mission in a few words. Don't stress out."></textarea>
+                </div>
+                <div>
+                    <label>Choose your favourite dog:</label>
+                    <div>
+                        <input type="radio" name="dog" id="beagle" value="beagle">
+                        <label class="radio-and-checkbox-label" for="beagle">Beagle</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dog" id="retriever" value="retriever">
+                        <label class="radio-and-checkbox-label" for="retriever">Retriever</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dog" id="german-shepherd" value="german-shepherd">
+                        <label class="radio-and-checkbox-label" for="german-shepherd">German Shepherd</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dog" id="its-a-trap" value="its-a-trap">
+                        <label class="radio-and-checkbox-label" for="its-a-trap">It's a Trap!</label>
+                    </div>
+                </div>
+                <div>
+                    <label>What are your favourite synths:</label>
+                    <span>
+                    <input type="checkbox" name="synths" id="juno-60" value="juno-60">
+                    <label class="radio-and-checkbox-label" for="juno-60">Juno-60</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" name="synths" id="minimoog" value="minimoog">
+                    <label class="radio-and-checkbox-label" for="minimoog">Minimoog</label>
+                    </span>
+
+                    <span>
+                    <input type="checkbox" name="synths" id="arp-odyssey" value="arp-odyssey">
+                    <label class="radio-and-checkbox-label" for="arp-odyssey">ARP Odyssey</label>
+                    </span>
+                </div>
+                <div class="button-container">
+                    <button type="submit" onclick="alert('Thank you for your registration!')">Register</button>
+                </div>
+            </fieldset>
+        </form>
+        <div>
+            <a style="font-size: 1.2em"; href="../index.html">Don't care, back to main menu!</a>
+        </div>
+    </section>
+</body>
+</html>
