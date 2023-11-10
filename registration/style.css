@@ -48,3 +48,11 @@ form div label {
     padding: 12px;
     border-radius: 12px;
 }
+
+.button-container button:focus {
+    background-color: darkred;
+}
+
+.button-container button:hover {
+    color: whitesmoke;
+}
