@@ -47,6 +47,7 @@ form div label {
     font-size: 1.3em;
     padding: 12px;
     border-radius: 5em;
+    transition: all 0.2s ease;
 }
 
 .button-container button:focus {
@@ -55,4 +56,5 @@ form div label {
 
 .button-container button:hover {
     color: whitesmoke;
+    transform: scale(1.2);
 }
