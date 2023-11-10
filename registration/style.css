@@ -46,7 +46,7 @@ form div label {
     background-color: crimson;
     font-size: 1.3em;
     padding: 12px;
-    border-radius: 12px;
+    border-radius: 5em;
 }
 
 .button-container button:focus {
