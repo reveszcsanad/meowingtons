@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
@@ -12,22 +12,6 @@
 
 # SonarLint
 .sonarlint/
-
-# Compiled files
-/out/
-/build/
-
-# Dependency directories
-/node_modules/
-/bower_components/
-
-# Logs and databases
-*.log
-*.sqlite
-
-# OS-specific files
-.DS_Store
-Thumbs.db
 
 # IDE-specific files
 *.iml
@@ -47,14 +31,6 @@ Thumbs.db
 
 # Compiled Java bytecode
 *.class
-
-# Compiled Python bytecode
-__pycache__/
-*.pyc
-
-# Compiled TypeScript
-*.js
-*.js.map
 
 # Compiled SASS/SCSS
 *.css
@@ -80,18 +56,5 @@ __pycache__/
 *.tmtags
 .idea/
 
-# Sublime Text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-
-# Visual Studio Code
-.vscode/
-*.code-workspace
-.history/
-
 # SonarQube
 sonar-project.properties
-
-# Yarn
-yarn-error.log
