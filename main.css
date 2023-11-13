@@ -44,3 +44,7 @@ pre {
     padding: 6px;
     border-radius: 0.5em;
 }
+
+.unsubscribe-btn:hover {
+    color: whitesmoke;
+}
